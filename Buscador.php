@@ -1,13 +1,11 @@
 <!DOCTYPE html>
 <html lang="es">
-
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>FIME Blog</title>
     <link rel="stylesheet" href="css/estilo.css">
 </head>
-
 <body>
     <header class="header">
         <div class="logo">
@@ -27,30 +25,17 @@
             <span class="settings-icon">⚙️</span>
         </div>
     </header>
-    <div class="contact-form">
-        <h2>Registro</h2>
-        <form action="contact.php" method="post">
 
-            <label for="username">Nombre de usuario:</label>
-            <input type="text" id="username" name="username" required>
-
-            <label for="email">Correo Electrónico:</label>
-            <input type="email" id="email" name="email" required>
-
-            <label for="password">Contraseña:</label>
-            <input type="password" id="password" name="password" required>
-
-            <label for="confirm_password">Verifica tu contraseña:</label>
-            <input type="password" id="confirm_password" name="confirm_password" required>
-
-            <a href="IniSesion.php" target="_blank">
-            <button type="button">Ya tengo cuenta</button>
-        </a>
-            <button type="submit">Registrate</button>
-        </form>
-    </div>
-
-
+    <main class="main-content">
+        <aside class="sidebar">
+            <h3>CATEGORÍAS</h3>
+        </aside>
+        <section class="discussion-area">
+            <h3>Hacer pregunta, discusión o lista</h3>
+            <div class="posts-section">
+                <p>PUPULARES Y RECIENTES</p>
+            </div>
+        </section>
+    </main>
 </body>
-
 </html>

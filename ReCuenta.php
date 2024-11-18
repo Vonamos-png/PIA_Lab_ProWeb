@@ -13,9 +13,9 @@
             <span>FIME BLOG</span>
         </div>
         <nav class="nav">
-            <a href="Nosotros.html">INICIO</a>
+            <a href="Nosotros.php">INICIO</a>
             <a href="Formulario.php">CONTACTO</a>
-            <a href="index.html" class="search-link">BUSCAR</a>
+            <a href="Buscador.php" class="search-link">BUSCAR</a>
             <input type="text" class="search-bar" placeholder="Buscar pregunta, discusión o lista...">
         </nav>
         <div class="user-options">
