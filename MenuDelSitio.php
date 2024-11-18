@@ -24,7 +24,7 @@
         <div class="user-options">
             <a href="IniSesion.php">INICIAR SESIÓN</a>
             <a href="Registro.php">REGISTRO</a>
-            <span class="user-icon">👤</span>
+            <a href="PdUsuario.php" class="user-icon">👤</a>
             <span class="settings-icon">⚙️</span>
         </div>
     </header>
