@@ -152,3 +152,75 @@ body {
 .form-buttons button:hover {
     background-color: #45a049;
 }
+
+/* Sección de Nosotros */
+.about-section {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh; /* Centra verticalmente */
+    padding: 20px;
+    background-color: #3a3a3a;
+    gap: 20px; /* Espacio mínimo entre texto e imagen */
+}
+
+.about-content {
+    width: 50%; /* Ajusta el ancho para balancear */
+    text-align: left;
+}
+
+.about-content h1 {
+    font-size: 72px; /* Tamaño aumentado para "Nosotros" */
+    margin-bottom: 20px;
+}
+
+.about-content p {
+    margin-bottom: 20px;
+    font-size: 18px; /* Tamaño ligeramente más grande para el párrafo */
+}
+
+.info-button {
+    display: inline-block;
+    padding: 15px 30px;
+    background-color: #4CAF50;
+    color: white;
+    text-decoration: none;
+    border-radius: 30px; /* Más redondeado */
+    font-size: 18px; /* Botón más grande */
+    font-weight: bold;
+    text-align: center;
+}
+
+.info-button:hover {
+    background-color: #45a049;
+}
+
+.about-image {
+    width: 50%; /* Ajusta el ancho para balancear */
+    display: flex;
+    justify-content: center; /* Centrado horizontal dentro de su contenedor */
+    align-items: center; /* Centrado vertical */
+}
+
+.about-image img {
+    width: 400px; /* Imagen más grande */
+    height: auto;
+    border-radius: 10px;
+}
+
+.re-button {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 15px;
+}
+
+.re-button button {
+    background-color: #4CAF50;
+    color: white;
+    border: none;
+    padding: 15px 15px;
+    border-radius: 10px;
+    cursor: pointer;
+    flex-grow: 1;
+    margin: 5px;
+}

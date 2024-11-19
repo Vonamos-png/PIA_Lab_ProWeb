@@ -28,15 +28,15 @@
 
     <!-- Sección de Nosotros -->
     <section class="about-section">
-        <div class="about-content">
-            <h1>Nosotros</h1>
-            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut a enim nec nisl ullamcorper eleifend. Praesent risus leo, fringilla et ipsum.</p>
-            <a class="info-button" href="MenuDelSitio.php">Información del sitio</a>
-        </div>
-        <div class="about-image">
-            <img src="img/fime-logo.jpeg" alt="Logo de un oso">
-        </div>
-    </section>
+    <div class="about-content">
+        <h1>Nosotros</h1>
+        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut a enim nec nisl ullamcorper eleifend. Praesent risus leo, fringilla et ipsum.</p>
+        <a class="info-button" href="MenuDelSitio.php">Información del sitio</a>
+    </div>
+    <div class="about-image">
+        <img src="img/fime-logo.jpeg" alt="Logo de un oso">
+    </div>
+</section>
 </body>
 </html>
 

@@ -34,7 +34,9 @@
             <label for="email">Correo Electrónico:</label>
             <input type="email" id="email" name="email" required>
 
-            <button type="submit">Enviar codigo de recuperación</button>
+           <div class="re-button">
+           <button type="submit">Enviar codigo de recuperación</button>
+            </div>
         </form>
     </div>
 
