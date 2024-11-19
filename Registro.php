@@ -43,10 +43,9 @@
             <label for="confirm_password">Verifica tu contraseña:</label>
             <input type="password" id="confirm_password" name="confirm_password" required>
 
-            <a href="IniSesion.php" target="_blank">
-            <button type="button">Ya tengo cuenta</button>
-        </a>
-            <button type="submit">Registrate</button>
+            <div class="form-buttons">
+            <button type="button" onclick="location.href='IniSesion.php';">Ya tengo cuenta</button>
+            <button type="submit">Regístrate</button>
         </form>
     </div>
 
