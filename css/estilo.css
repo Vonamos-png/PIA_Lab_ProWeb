@@ -208,6 +208,7 @@ body {
     border-radius: 10px;
 }
 
+/*Botones del apartado de Recuperacion de Cuenta*/
 .re-button {
     display: flex;
     justify-content: space-between;
@@ -223,4 +224,22 @@ body {
     cursor: pointer;
     flex-grow: 1;
     margin: 5px;
+}
+
+/*Botones del apartado de inicio de sesion*/
+.in-buttons{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 15px;
+}
+
+.in-buttons button {
+    background-color: #4CAF50;
+    color: white;
+    border: none;
+    padding: 10px 15px;
+    border-radius: 5px;
+    cursor: pointer;
+    flex-grow: 1;
+    margin: 0 5px;
 }

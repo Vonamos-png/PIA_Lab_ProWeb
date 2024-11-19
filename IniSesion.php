@@ -40,9 +40,8 @@
             <input type="password" id="password" name="password" required>
 
             
-            <a href="ReCuenta.php" target="_blank">
-            <button type="button">Recuperar cuenta</button>
-        </a>
+            <div class="in-buttons">
+            <button type="button" onclick="location.href='ReCuenta.php';">Recuperar cuenta</button>
             <button type="submit">Iniciar sesion</button>
         </form>
     </div>
